@@ -3,3 +3,5 @@ App_mac.zip filter=lfs diff=lfs merge=lfs -text
  filter=lfs diff=lfs merge=lfs -text
  filter=lfs diff=lfs merge=lfs -text
 MacVersion_HumanOrAnimal.zip filter=lfs diff=lfs merge=lfs -text
+MyAppInstaller_web filter=lfs diff=lfs merge=lfs -text
+MyAppInstaller_web.app filter=lfs diff=lfs merge=lfs -text
