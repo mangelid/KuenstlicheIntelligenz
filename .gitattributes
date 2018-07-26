@@ -1,1 +1,2 @@
 *.exe filter=lfs diff=lfs merge=lfs -text
+App_mac.zip filter=lfs diff=lfs merge=lfs -text
