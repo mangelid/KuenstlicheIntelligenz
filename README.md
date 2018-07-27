@@ -36,5 +36,6 @@ Um das Programm zu testen, kann man folgende Befehle einzelnd ins Command Window
 Wichtig dafür ist es zuvor das Programm "image_recognition" verwendet zu haben!!! 
 Im Command Window wird dann unter "categorical" das Ergebnis angezeigt.
 
-Anleitung zur App:
-Um unsere App zu benutzen, muss zuert der ZIP-Ordner "HumanOrAnimal2" aus unserem Github Ordner runtergeladen und entpackt werden. Dann geht man in dem Ordner "for_redistribution" und lädt "MyAppinstaller_web.exe" runter. Dann geht man in den Ordner "for_testing" und öffnet die App "HumanOrAnimal.exe" (<-Windows). (Mac->) Folgt der Anleitung in der readme.txt Datei aus dem Ordner "for_testing".
+Anleitung zur App (Windows):
+Um unsere App zu benutzen, muss zuert der ZIP-Ordner "HumanOrAnimal2" aus unserem Github Ordner runtergeladen und entpackt werden. Dann geht man in dem Ordner "for_redistribution" und lädt "MyAppinstaller_web.exe" runter. Dann geht man in den Ordner "for_testing" und öffnet die App "HumanOrAnimal.exe" 
+(Mac->) Folgt der Anleitung in der readme.txt Datei aus dem Ordner "for_testing".
