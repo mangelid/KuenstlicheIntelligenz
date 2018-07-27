@@ -6,7 +6,7 @@ Zu Matlab:
 Matlab ist eine einfache Programmiersprache, die viele Möglichkeiten bietet. Matlab hat integrierte Computer Vision und neuronale Netzwerk Tools und mit einem Rechtsklick kann man sich zu jeder Funktion Hilfe suchen. Zu dem sind die Ergebnisse durch die GUI zu jeder Zeit visualisierbar, anders als bei Python und ähnlichen Programmiersprachen. 
 
 Zum Projekt:
-Wir haben es uns zur Aufgabe gemacht, ein Programm zu erstellen, welches die veranstaltungsbegleitenden Materialien zu schwarzweiß skalierten Bildern umformt und schließlich erkennt ob es sich um einen Menschen oder ein Tier handelt. Nachdem das gelang, haben wir dazu eine App erstellt, die sowohl auf Mac Os und Windows läuft.
+Wir haben es uns zur Aufgabe gemacht, ein Programm zu erstellen, welches die veranstaltungsbegleitenden Materialien zu schwarzweiß skalierten Bildern umformt und schließlich erkennt ob es sich um einen Menschen oder ein Tier handelt. Nachdem das gelang, haben wir dazu eine App erstellt, die sowohl auf Mac Os und Windows läuft. Die Inhalte des ganzen Repositorys müssen runtergeladen werden. Am besten sollte man in das Repository gehn, auf "clone or download" klicken und "download zip" auswählen. Der Zip Ordner soll dann entpackt werden.
 
 Code des Programms (im Ordner "ErsterEntwurf_mitMatlab"):
 1) Bilder_skalieren.m:
@@ -16,7 +16,7 @@ In dem Programm "Bilder_skalieren.m" werden zuerst die Originalbilder aus dem ru
 Das Programm "image_recognition.m" nimmt 100 Bilder aus jedem Ordner, wendet die Layer an und versucht durch das "Training" selber Gemeinsamkeiten und Unterschiede zwischen den Bildern zu erkennen. Durch den Befehl "programm = trainNetwork(imdsTrain,layers,options);" nimmt das Programm die gegebenen Bilder, Layer und Optionen und führt das Training durch. Nach dem Training öffnet sich ein Diagramm, welches die Übereinstimmung der Ergebnisse schildert. Diese sind momentan bei 90%. 
 
 Anleitung zum Programm:
-Als erstes öffnet man die zwei Programme in Matlab (Lizenz für Studierende der Uni Köln). Die Programm kann man starten, indem man auf den grünen "Play-Button" klickt. 
+Als erstes öffnet man die zwei Programme in Matlab (Lizenz für Studierende der Uni Köln). Die Programme kann man starten, indem man auf den grünen "Play-Button" klickt. 
 Beim Starten von "Bilder_skalieren.m" erscheinen auf dem Bildschirm die Ergebnisse, also die skalierten Bilder.
 Beim Starten von "image_recognition.m" sieht man im Command Window das Ergebnis der "labelCount = countEachLabel(imds)". Dieses zählt, wie viele Bilder Menschen und wie viele Bilder Tiere enthalten. Zusätzlich öffnet sich das zuvor erwähnte Diagramm.
 Um das Programm zu testen, kann man folgende Befehle einzelnd ins Command Window eingeben:
