@@ -9,6 +9,7 @@ Zum Projekt:
 Wir haben es uns zur Aufgabe gemacht, ein Programm zu erstellen, welches die veranstaltungsbegleitenden Materialien zu schwarzweiß skalierten Bildern umformt und schließlich erkennt ob es sich um einen Menschen oder ein Tier handelt. Nachdem das gelang, haben wir dazu eine App erstellt, die sowohl auf Mac Os und Windows läuft.
 
 Code des Programms:
+
 ->Bilder_skalieren.m:
 In dem Programm "Bilder_skalieren.m" werden zuerst die Originalbilder aus dem runtergeladenen Ordner entnommen und in schwarzweiß umgewangelt. Dann erfolgt mittels "regionprops" die Objekterkennung und jedes Objekt wird als eigenes Bild gespeichert. Dann werden die Bilder alle in die gleiche Größe umgeformt (200x200) und gespeichert. Die Enddateien haben wir in die zwei ordner "human" und "animal" sortiert. 
 
