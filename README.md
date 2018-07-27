@@ -9,11 +9,10 @@ Zum Projekt:
 Wir haben es uns zur Aufgabe gemacht, ein Programm zu erstellen, welches die veranstaltungsbegleitenden Materialien zu schwarzweiß skalierten Bildern umformt und schließlich erkennt ob es sich um einen Menschen oder ein Tier handelt. Nachdem das gelang, haben wir dazu eine App erstellt, die sowohl auf Mac Os und Windows läuft.
 
 Code des Programms:
-
-->Bilder_skalieren.m:
+1) Bilder_skalieren.m:
 In dem Programm "Bilder_skalieren.m" werden zuerst die Originalbilder aus dem runtergeladenen Ordner entnommen und in schwarzweiß umgewangelt. Dann erfolgt mittels "regionprops" die Objekterkennung und jedes Objekt wird als eigenes Bild gespeichert. Dann werden die Bilder alle in die gleiche Größe umgeformt (200x200) und gespeichert. Die Enddateien haben wir in die zwei ordner "human" und "animal" sortiert. 
 
-->image_recognition.m:
+2) image_recognition.m:
 Das Programm "image_recognition.m" nimmt 100 Bilder aus jedem Ordner, wendet die Layer an und versucht durch das "Training" selber Gemeinsamkeiten und Unterschiede zwischen den Bildern zu erkennen. Durch den Befehl "programm = trainNetwork(imdsTrain,layers,options);" nimmt das Programm die gegebenen Bilder, Layer und Optionen und führt das Training durch. Nach dem Training öffnet sich ein Diagramm, welches die Übereinstimmung der Ergebnisse schildert. Diese sind momentan bei 90%. 
 
 Anleitung zum Programm:
