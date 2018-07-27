@@ -30,6 +30,7 @@ Wichtig dafür ist es zuvor das Programm "image_recognition" verwendet zu haben!
 Im Command Window wird dann unter "categorical" das Ergebnis angezeigt.
 
 App "Human or Animal?":
+
 Um die App "Human or Animal" zu erstellen haben wir das Tool "appdesigner" von Matlab benutzt, womit man GUI Apps erstellt. Im "Design View" haben wir das Layout der App erstellt. Den Rest haben wir im "Code View" erstellt. Dort haben wir bestimmt, was passieren soll und eine Interaktion mit dem User durch Dialogfenster eingebaut. Das Ergebnis ist, dass der User drei Optionen hat: 
 Option 1: die durch das Programm skalierten Bilder, die in der App integriert sind zu benutzen. (diese Bilder wurden nicht für das Training verwendet, sind daher unbekannt).
 Option 2: aus dem runtergeladenen Github Ordner mit den skalierten Bildern ein Bild aussuchen.
