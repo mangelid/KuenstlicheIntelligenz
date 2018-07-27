@@ -31,7 +31,7 @@ Im Command Window wird dann unter "categorical" das Ergebnis angezeigt.
 
 App "Human or Animal?":
 
-Um die App "Human or Animal" zu erstellen haben wir das Tool "appdesigner" von Matlab benutzt, womit man GUI Apps erstellt. Im "Design View" haben wir das Layout der App erstellt. Den Rest haben wir im "Code View" erstellt. Dort haben wir bestimmt, was passieren soll und eine Interaktion mit dem User durch Dialogfenster eingebaut. Das Ergebnis ist, dass der User drei Optionen hat: 
+Um die App "Human or Animal" zu erstellen haben wir das Tool "appdesigner" von Matlab benutzt, womit man GUI Apps erstellt. Im "Design View" haben wir das Layout der App erstellt. Den Rest haben wir im "Code View" erstellt. Im Code der App "MenschOderTierCode.mlapp", der sich auch im Ordner "ErsterEntwurf_mitMatlab" befindet, wurden die Änderungen, die wir im "Design View" erstellt haben, übernommen. Im Hauptteil des Codes haben wir dann das Konzept der App, nämlich eine Interaktion mit dem User durch Dialogfenster programmiert. Das Ergebnis ist, dass der User drei Optionen hat: 
 Option 1: die durch das Programm skalierten Bilder, die in der App integriert sind zu benutzen. (diese Bilder wurden nicht für das Training verwendet, sind daher unbekannt).
 Option 2: aus dem runtergeladenen Github Ordner mit den skalierten Bildern ein Bild aussuchen.
 Option 3: ein RAW-Bild aus dem Seminar aussuchen und ein Objekt auswählen.
