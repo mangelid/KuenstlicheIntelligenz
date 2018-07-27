@@ -16,12 +16,6 @@ In dem Programm "Bilder_skalieren.m" werden zuerst die Originalbilder aus dem ru
 ->image_recognition.m:
 Das Programm "image_recognition.m" nimmt 100 Bilder aus jedem Ordner, wendet die Layer an und versucht durch das "Training" selber Gemeinsamkeiten und Unterschiede zwischen den Bildern zu erkennen. Durch den Befehl "programm = trainNetwork(imdsTrain,layers,options);" nimmt das Programm die gegebenen Bilder, Layer und Optionen und führt das Training durch. Nach dem Training öffnet sich ein Diagramm, welches die Übereinstimmung der Ergebnisse schildert. Diese sind momentan bei 90%. 
 
-App "Human or Animal?":
-Um die App "Human or Animal" zu erstellen haben wir das Tool "appdesigner" von Matlab benutzt, womit man GUI Apps erstellt. Im "Design View" haben wir das Layout der App erstellt. Den Rest haben wir im "Code View" erstellt. Dort haben wir bestimmt, was passieren soll und eine Interaktion mit dem User durch Dialogfenster eingebaut. Das Ergebnis ist, dass der User drei Optionen hat: 
-Option 1: die durch das Programm skalierten Bilder, die in der App integriert sind zu benutzen. (diese Bilder wurden nicht für das Training verwendet, sind daher unbekannt).
-Option 2: aus dem runtergeladenen Github Ordner mit den skalierten Bildern ein Bild aussuchen.
-Option 3: ein RAW-Bild aus dem Seminar aussuchen und ein Objekt auswählen.
-
 Anleitung zum Programm:
 Als erstes öffnet man die zwei Programme in Matlab (Lizenz für Studierende der Uni Köln). Die Programm kann man starten, indem man auf den grünen "Play-Button" klickt. 
 Beim Starten von "Bilder_skalieren.m" erscheinen auf dem Bildschirm die Ergebnisse, also die skalierten Bilder.
@@ -36,6 +30,14 @@ Um das Programm zu testen, kann man folgende Befehle einzelnd ins Command Window
 Wichtig dafür ist es zuvor das Programm "image_recognition" verwendet zu haben!!! 
 Im Command Window wird dann unter "categorical" das Ergebnis angezeigt.
 
+App "Human or Animal?":
+Um die App "Human or Animal" zu erstellen haben wir das Tool "appdesigner" von Matlab benutzt, womit man GUI Apps erstellt. Im "Design View" haben wir das Layout der App erstellt. Den Rest haben wir im "Code View" erstellt. Dort haben wir bestimmt, was passieren soll und eine Interaktion mit dem User durch Dialogfenster eingebaut. Das Ergebnis ist, dass der User drei Optionen hat: 
+Option 1: die durch das Programm skalierten Bilder, die in der App integriert sind zu benutzen. (diese Bilder wurden nicht für das Training verwendet, sind daher unbekannt).
+Option 2: aus dem runtergeladenen Github Ordner mit den skalierten Bildern ein Bild aussuchen.
+Option 3: ein RAW-Bild aus dem Seminar aussuchen und ein Objekt auswählen.
+
 Anleitung zur App (Windows):
-Um unsere App zu benutzen, muss zuert der ZIP-Ordner "HumanOrAnimal2" aus unserem Github Ordner runtergeladen und entpackt werden. Dann geht man in dem Ordner "for_redistribution" und lädt "MyAppinstaller_web.exe" runter. Dann geht man in den Ordner "for_testing" und öffnet die App "HumanOrAnimal.exe" 
-(Mac->) Folgt der Anleitung in der readme.txt Datei aus dem Ordner "for_testing".
+Um unsere App zu benutzen, muss "MyAppinstaller_web.exe" runtergeladen und ausgeführt werden. Dann muss man den Anweisungen folgen. 
+
+Anleitung zur App (Mac):
+Um unsere App zu benutzen, muss "MyAppinstaller_webMac.zip" runtergeladen, (entpackt) und "MyAppinstaller_web.app" ausgeführt werden. Dann muss man den Anweisungen folgen.
